@@ -56,3 +56,96 @@ i {
     font-size: 1rem;
     color: white;
 }
+
+main {
+    margin-top: 100px;
+}
+
+.container {
+    padding-top: 5em;
+    width: 100%;
+    max-width: 1200px;
+    margin: 50px auto 0;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col {
+    width: calc(100% / 3);
+    padding: 8px;
+    margin-bottom: 16px;
+}
+.card {
+    position: relative;
+}
+
+.card > img {
+    width: 100%;
+}
+
+.discount-red {
+    background-color: red;
+    color: white;
+    position: absolute;
+    bottom: 2em;
+    padding: .1em;
+}
+
+.banner-green {
+    background-color: green;
+    color: white;
+    position: absolute;
+    bottom: 2em;
+    left: 2.5em;
+    padding: .1em;
+}
+
+.banner-green-last {
+    background-color: green;
+    color: white;
+    position: absolute;
+    bottom: 2em;
+    left: 0em;
+    padding: 0.1em;
+}
+
+.heart {
+    position: absolute;
+    background-color: white;
+    right: 0;
+    top: .2em;
+    padding: .6em;
+}
+
+.description {
+    position: absolute;
+}
+
+.price {
+    color: red;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.offer {
+    text-decoration: line-through;
+    display: inline-block;
+}
+
+.heart:hover {
+    color: red;
+}
+
+.first {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.card:hover .first {
+    display: none;
+}
+
