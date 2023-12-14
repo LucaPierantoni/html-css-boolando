@@ -75,11 +75,11 @@ main {
 
 .col {
     width: calc(100% / 3);
-    padding: 8px;
-    margin-bottom: 16px;
+    padding: 20px;
 }
 .card {
     position: relative;
+    padding-bottom: 5em;
 }
 
 .card > img {
@@ -147,5 +147,30 @@ main {
 
 .card:hover .first {
     display: none;
+}
+
+footer {
+    background-color: rgb(29, 28, 29);
+}
+.foot-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(29, 28, 29);
+    margin: auto;
+    padding: 1.5em;
+}
+
+.credits {
+    list-style: none;
+    display: inline;
+    color: white;
+    margin-right: 0.3em;
+}
+
+h3 {
+    color: white;
+    font-weight: 100;
+    margin-bottom: .3em;
 }
 
